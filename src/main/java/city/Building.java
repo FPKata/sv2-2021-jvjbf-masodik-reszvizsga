@@ -25,7 +25,7 @@ public abstract class Building {
         return area;
     }
 
-    public int getFloor() {
+    public int getLevels() {
         return floor;
     }
 
