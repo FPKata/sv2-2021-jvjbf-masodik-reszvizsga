@@ -72,9 +72,9 @@ class CityTest {
         assertEquals(11, result.get(1).getAddress().getBuildingNumber());
     }
 
-    @Test
-    void testIsThereBuildingWithMorePeopleThan() {
-        assertTrue(city.isThereBuildingWithMorePeopleThan(494));
-        assertFalse(city.isThereBuildingWithMorePeopleThan(496));
-    }
+//    @Test
+//    void testIsThereBuildingWithMorePeopleThan() {
+//        assertTrue(city.isThereBuildingWithMorePeopleThan(494));
+//        assertFalse(city.isThereBuildingWithMorePeopleThan(496));
+//    }
 }

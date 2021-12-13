@@ -1,5 +1,6 @@
 package city;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class City {
@@ -47,6 +48,12 @@ public class City {
         return maxBuilding;
     }
     public List<Building> findBuildingsByStreet(String street){
-
+        List<Building> selected = new ArrayList<>();
+        for (Building actual :buildings){
+            if (actual.getAddress().getStreet() == street){
+                selected.add(actual);
+            }
+        }
+        return selected;
     }
 }
